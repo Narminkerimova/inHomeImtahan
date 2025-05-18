@@ -12,9 +12,15 @@ function Home() {
         <p>We deliver organic vegetables & friuts</p>
         <Link to={"#"} className="heroLink">View Details</Link>
       </section>
-      <div className="container">
+      <section className="products">
+        <h6>Featured Products</h6>
+        <h3>Our Products</h3>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <div className="container">
         <Cards/>
       </div>
+      </section>
+      
 
     </>
 
