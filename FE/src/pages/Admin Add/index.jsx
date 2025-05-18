@@ -7,6 +7,8 @@ import { useContext } from 'react';
 function AdminAdd() {
   const {postElement,url} = useContext(RequestsContext)
   return (
+    <>
+    <title>Admin ADD</title>
     <Formik
       initialValues={{ name: '', price: '', image: '' }}
       validationSchema={Yup.object({
@@ -49,6 +51,7 @@ function AdminAdd() {
         <button type="submit">Submit</button>
       </Form>
     </Formik>
+    </>
   );
 }
 

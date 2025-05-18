@@ -29,6 +29,7 @@ function RequestsProvider({ children }) {
     const data= (await res).json()
     setProduct(data)
   }
+ 
 
   useEffect(() => {
     getElement(url)

@@ -1,0 +1,104 @@
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+.top_nav{
+    height: 30px;
+    background-color: #82ad45;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_box{
+    width: 28%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+}
+.bottom_nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #82ad45;
+    text-transform: uppercase;
+    margin-left: 10px;
+    width: 20%;
+}
+.nav_links{
+    width: 45%;
+}
+.nav_links ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.nav_links ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+.basketIcon{
+    font-size: 20px;
+}
+.favoIcon{
+    font-size: 25px;
+    color: rgb(211, 32, 32)
+}
+.nav_hidden{
+    display: none;
+    color: #999;
+    width: 30%;
+    height: 100%;
+    gap: 5px;
+}
+.menuNavIcon{
+    font-size: 25px;
+}
+@media only screen and (max-width: 800px) {
+  .top_nav{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.top_box{
+    height: 35px;
+    justify-content: start;
+    margin-left: 15px;
+}
+.bottom_nav{
+    height: 70px;
+    background-color: #000;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 10px;
+    width: 20%;
+}
+.nav_links{
+    display: none;
+}
+.nav_hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}

@@ -22,8 +22,8 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/adminadd" element={<AdminAdd />} />
           <Route path="/basket" element={<Basket />} />
-          <Route path="/wihslist" element={<WishList />} />
-          <Route path="/detail" element={<DetailPage />} />
+          <Route path="/wishlist" element={<WishList />} />
+          <Route path="/detail/:_id" element={<DetailPage />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

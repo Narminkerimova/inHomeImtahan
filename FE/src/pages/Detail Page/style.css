@@ -1,0 +1,28 @@
+.detailBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 24%;
+    height: 50vh;
+    border: 2px solid black;
+}
+.card_image{
+    width: 100%;
+    height: 75%;
+}
+.card_image img{
+    width: 100%;
+    height: 100%;
+}
+.card_title{
+    width: 100%;
+    height: 15%;
+}
+.card_buttons{
+    width: 100%;
+    height: 10%;
+}
